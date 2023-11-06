@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h1>Welcome to Your Website</h1>
+        <p>This is the home page of your website.</p>
+        <form class="form-inline" action="details/" method="post">
+            {% csrf_token %}
+            <div class="input-group">
+                <input type="text" class="form-control" name="query" placeholder="Search...">
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+{% endblock %}

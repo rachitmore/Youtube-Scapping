@@ -1,0 +1,15 @@
+asgiref
+Django
+sqlparse
+typing_extensions
+tzdata
+django-crispy-forms
+Pillow
+psycopg2
+whitenoise
+beautifulsoup4
+urllib3
+
+
+
+
